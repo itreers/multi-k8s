@@ -14,7 +14,7 @@ spec:
       secretName: k8s-itreers-pro
   ingressClassName: nginx
   rules:
-    - host: yourdomain.com
+    - host: k8s.itreers.pro
       http:
         paths:
           - path: /?(.*)
